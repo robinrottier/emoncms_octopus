@@ -13,7 +13,7 @@ for meter in  ["electricity", "gas"]:
 	emoncms_unit = "kWh"
 
 	if  meter == "gas":
-		print("Getting GAS!!")
+		print("Getting GAS...")
 		settings_section = "octopus.gas"
 		emoncms_unit = "m3"
 
